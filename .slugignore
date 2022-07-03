@@ -3,4 +3,5 @@
 *.pdf
 /Data
 /spec
-/static
+static/css/bootstrap.css
+static/css/font-awesome.min.css
