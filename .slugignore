@@ -1,0 +1,6 @@
+# Heres a comment
+*.psd
+*.pdf
+/Data
+/spec
+/static
