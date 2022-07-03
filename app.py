@@ -9,8 +9,8 @@ import requests
 import config
 import pickle
 import io
-import torch
-from torchvision import transforms
+#import torch
+#from torchvision import transforms
 from PIL import Image
 from utils.model import ResNet9
 # ==============================================================================================
