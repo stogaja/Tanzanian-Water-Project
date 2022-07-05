@@ -45,12 +45,12 @@ This question is provided by the competition.
 
 ### 3. Explore the Data
 
-* [Jupyter notebook: Explore the data](pumpitup_explore.ipynb)
+* Jupyter notebook: Explore the data
   * The main problem with the data is missing values: 12 of the 40 variables have missing data, which needs to be dealt with. Exploration revealed some potential ways to do imputation.
   * Categorical values need to be converted numerical. Numerical values might need to be normalized.
   
 <p align="center">
-  <img src="status_group_map.png"/><br>
+  <img src="https://github.com/villeheilala/pumpitup/blob/master/status_group_map.png"/><br>
   Plotting 2000 pumps each by status_group
 </p>
 
@@ -66,18 +66,13 @@ This question is provided by the competition.
   * Estimating optimal max_features parameter
 
 <p align="center">
-  <img src="max_features.png"/><br>
+  <img src="https://github.com/villeheilala/pumpitup/blob/master/max_features.png"/><br>
   Optimizing max_features parameter, which is the number of features to consider when looking for the best split. Best value seems to be 0.20 (20 %) of the features.
 </p>
 
 * Jupyter notebook: Model the data II: Experimenting with feature selection
   * Removing variables with low feature importances one by one
-  
- <p align="center">
-  <img src="feature_selection.png"/><br>
-  Removing variables with low feature importances one by one and how it affects Out of Bag error
-</p>
-  
+   
 * Jupyter notebook: Model the data III: Making prediction
 
 ## Results
