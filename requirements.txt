@@ -1,11 +1,5 @@
-numpy
-pandas
-Flask
-scikit-learn
-torch
-torchvision
-#https://download.pytorch.org/whl/cpu/torch-1.11.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
-#https://download.pytorch.org/whl/cpu/torchvision-0.8.1%2Bcpu-cp36-cp36m-linux_x86_64.whl
-requests
-Pillow
-gunicorn == 20.0.4
+streamlit==0.79.0
+numpy==1.19.2
+plotly==4.14.3
+scipy==1.5.2
+click==8.0.4
