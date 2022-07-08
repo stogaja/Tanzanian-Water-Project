@@ -41,7 +41,7 @@ selected = option_menu(menu_title=None, options=['Home', 'Analysis', 'Predict Pu
                        'house', 'boxes', 'cast'], menu_icon='cast', default_index=0, orientation='horizontal')
 
 if selected == 'Home':
-    st.markdown("<h2 style='text-align: center;'>PUMP IT UP</h2>",
+    st.markdown("<h2 style='text-align: center;'>Tanzania Water Project</h2>",
                 unsafe_allow_html=True)
     st.subheader("Data Mining the Water Table")
     st.text('We are Providing Information About The State Of Pumps In The Tanzania Water System')
@@ -66,7 +66,7 @@ if selected == 'Analysis':
 
     #st.set_page_config(layout="wide", page_icon='logo.png', page_title='EDA')
 
-    st.header("Pump it Up Exploratory Data Analysis")
+    st.header("Tanzania Water Project Exploratory Data Analysis")
 
     st.write('<p style="font-size:160%">You will be able to✅:</p>',
              unsafe_allow_html=True)
